@@ -1,2 +1,3 @@
-# Katia-Rosado-JS-Intro-26.4Katia Rosado
+# Katia-Rosado-JS-Intro-26.4
 
+Katia Rosado
