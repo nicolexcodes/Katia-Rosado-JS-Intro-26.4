@@ -79,3 +79,24 @@ nav a {
 #About {
   text-align: center;
 }
+
+
+#Skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+#Skills li {
+  background-color: #dcc5f2;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #70419b;
+}
