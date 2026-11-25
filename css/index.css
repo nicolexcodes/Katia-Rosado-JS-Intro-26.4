@@ -100,3 +100,72 @@ footer {
   padding: 20px;
   color: #70419b;
 }
+
+
+#LeaveMessage form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#LeaveMessage label {
+  color: #70419b;
+  font-weight: bold;
+}
+
+#LeaveMessage input,
+#LeaveMessage textarea {
+  padding: 12px;
+  border: 1px solid #70419b;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+#LeaveMessage textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+#LeaveMessage button,
+#messages button {
+  background-color: #70419b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#messages li {
+  background-color: #dcc5f2;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+#messages a {
+  color: #70419b;
+  font-weight: bold;
+}
+
+#messages button {
+  margin: 10px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+  }
+
+  #LeaveMessage input,
+  #LeaveMessage textarea,
+  #LeaveMessage button {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 44px;
+  }
+}
